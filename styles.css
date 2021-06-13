@@ -1,0 +1,107 @@
+/**************************** start reset style ****************************/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+/**************************** end reset style ****************************/
+/**************************** start general style  ****************************/
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+
+/* end general style  */
+/* styling card items */
+.section {
+  background-color: rgb(228, 226, 225);
+  padding: 5%;
+}
+.card-item {
+  width: 30%;
+  background-color: white;
+  position: relative;
+}
+.card-img{
+    position: relative;
+}
+.card-img img {
+  width: 100%;
+}
+.position-img img {
+  position: absolute;
+  top: 35%;
+  left: 68%;
+  border: 5px solid white;
+  width: 25%;
+  border-radius: 50%;
+}
+.icons{
+    margin: auto;
+    padding: 3%;
+}
+.icons span{
+    padding: 1%;
+    padding-left: 2%;
+}
+.icons i{
+    padding-right: 2%;
+ 
+}
+.icons font{
+    color: rgb(2, 230, 207);
+}
+.card-info{
+    padding: 7% 4%;
+}
+.card-info .title{
+    padding: 3% 0;
+    color: rgb(2, 230, 207);
+    font-weight: bolder;
+    font-size: 18px;
+}
+.card-info .title::after{
+    content: "";
+    display: block;
+    border:2px solid rgb(48, 50, 51);
+    width: 12%;
+    margin: 3% 0;
+}
+.card-info p:nth-child(2){
+    color: rgb(149, 151, 153);
+    line-height: 23px;
+}
+.overlay a{
+    color: white;
+    display: block;
+    margin-left: 20%;
+    margin-top: 50%;
+    display:none;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 98%;
+    background-color:rgba(0, 0, 0, 0.50) ;
+    display: none;
+  }
+  .card-img:hover .overlay , .overlay a{
+     display: block;
+  }
+/* styling card items */
+
